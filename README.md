@@ -1,3 +1,5 @@
+![좌표계산기-삼각형](triangle.png)
+
 ## 좌표계산기 요구사항
 
 ### 시작하기
@@ -46,3 +48,7 @@
 - **해결방법**: MyPoint, MyLine, MyTriangle가 동시에 준수하는 프로토콜 타입을 리턴타입으로 사용.
 - **유닛테스트 문제점**: Module ‘~~’ was not compiled for testing
 - **해결방법**: swift package manager를 썼기 때문에 @testable import CoordinateCalculator 를 선언할 필요가 없었다. (같은 모듈로 취급하기 때문인 듯하다)
+
+![좌표계산기-점](point.png)
+![좌표계산기-선](line.png)
+![좌표계산기-사각형](rectangle.png)
